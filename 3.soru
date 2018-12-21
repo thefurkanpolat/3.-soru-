@@ -1,0 +1,4 @@
+işlem = 0
+for i in range(1,1001):
+    işlem=işlem+i**i
+print(işlem%1000000000)
